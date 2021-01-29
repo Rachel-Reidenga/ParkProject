@@ -1,7 +1,8 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #9caea9;
-    --tertiary: #788585;
+    --primary: #b5bdb8;
+    --secondary: #5c8579;
+    --tertiary: #566666;
+    --white: white;
     --border-radius: .3rem;
   }
   
@@ -10,19 +11,19 @@
   }
   
   body {
-    background-color: var();
+    background-color: var(--primary);
     margin: 0;
     padding: 0;
     font-family:
-    color: var();
+    color: var(--tertiary);
     line-height: 1.5;
     font-size: 16px;
   }
   
-  h1 {
+  title {
     font-weight: 700;
     margin: 0;
-    color: var(--dark);
+    color: var(--tertiary);
     line-height: 1.25;
   }
   
@@ -39,23 +40,23 @@
     font-size: 1.3rem;
     text-decoration:none;
     padding: 6px 5px;
-    width: 100%;
+    width: 15%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: var(--primary);
+    color: var(--white);
     border: none;
     outline: none;
-    background-color: var(--light-dark);
-    box-shadow: 3px 3px var(--dark);
+    background-color: var(--secondary);
+    box-shadow: 3px 3px var(--tertiary);
     transform: translate(-1px, -1px);
   }
   
    .btn:hover {
-    color: var(--primary);
+    color: var(--white);
     background-color: var(--tertiary);
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    box-shadow: 2px 2px var(--tertiary);
   }
   
   .btn-inline {
