@@ -6,3 +6,8 @@ function parks(parks){
     var url="https://developer.nps.gov/api/v1/parks?parkCode"+parks+"acad&api_key="+APIKey;
     console.log(url)
 }
+
+function campground(){
+
+}
+console.log(campground);
