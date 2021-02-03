@@ -118,4 +118,5 @@ function findWeather(lat, lon){
     });
 };
 
+parks()
 campground("")
