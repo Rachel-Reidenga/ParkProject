@@ -17,11 +17,11 @@ function parks(parks){
     .then(function(response) 
     {
         for(var i=0 ;i<response.data.length;i++){
-            // console.log(response.data[i].fullName)
-            // console.log(response.data[i].description)
-            // console.log(response.data[i].url)
-            // console.log(response.data[i].images[0].url)
-            //.parkarea is where the dynamic data gets appended to
+            console.log(response.data[i].fullName)
+            console.log(response.data[i].description)
+            console.log(response.data[i].url)
+            console.log(response.data[i].images[0].url)
+            // .parkarea is where the dynamic data gets appended to
         }
         
     });
@@ -50,10 +50,10 @@ function campground(campground){
             $(".campground").append(campbtn);
             
 
-            // console.log(response.data[i].name)
-            // console.log(response.data[i].reservationUrl)
-            // console.log(response.data[i].fees)
-            //.parkarea is where the dynamic data gets appended to
+            console.log(response.data[i].name)
+            console.log(response.data[i].reservationUrl)
+            console.log(response.data[i].fees)
+            .parkarea is where the dynamic data gets appended to
         }
         
         //dynamically create button and make sure you store the city into the btn
