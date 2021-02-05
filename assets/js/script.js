@@ -26,23 +26,41 @@ function parks(parks){
 
         for(var i=0 ;i<response.data.length;i++){
             console.log(response.data[i].fullName)
-            console.log(response.data[i].description)
             console.log(response.data[i].url)
             console.log(response.data[i].images[0].url)
+            console.log(response.data[i].description)
+            
             // .parkarea is where the dynamic data gets appended to
 
-            var fullName = document.createElement("p");
-            fullName.textContent = response.data[i].fullName;
+            
+            var div1= $("<div");
+            div1.attr("class", "");
+            var p1= $("<p>");
+            p1.text("Name: " + response.data[i].fullName);
+            var p2= $("<p>");
+            p2.text("Site URL: " + response.data[i].url);
+            var p3= $("<p>");
+            p3.text("Image: " + response.data[i].images[0].url);
+            var p4= $("<p>");
+            p4.text("Description: "+ response.data[i].description);
 
-            console.log(response.data[i].description)
-            var description = document.createElement("p");
-            description.textContent = response.data[i].description;
+            div1.append(p1);
+            div1.append(p2);
+            div1.append(p3);
+            div1.append(p4);
 
-            console.log(response.data[i].url)
-            var response = document.createElement("p");
-            response.textContent = response.data[i].response;
+            // var fullName = document.createElement("p");
+            // fullName.textContent = response.data[i].fullName;
 
-            console.log(response.data[i].images[0].url)
+            // console.log(response.data[i].description)
+            // var description = document.createElement("p");
+            // description.textContent = response.data[i].description;
+
+            // console.log(response.data[i].url)
+            // var response = document.createElement("p");
+            // response.textContent = response.data[i].response;
+
+            // console.log(response.data[i].images[0].url)
 
             // .parkarea is where the dynamic data gets appended to
 
