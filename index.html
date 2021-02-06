@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
     <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Park Project</title>
 </head>
 <body>
@@ -17,22 +24,23 @@
 
 
         <div class="hero-image">
-                <form class="hero-text">
+                <form class="hero-text card blue-grey darken-1">
                     <h1>Find a National Park near you!</h1>
-                    <label>Choose a State:</label>
-                    <input id="stateSearch" type="text">
+                    <label id=""><h3>Choose a State:</h3></label>
+                    <input id="" type="text">
                     <button type="button" id="searchBtn" class="btn">Search</button>
                 </form>
         </div>
+
+        <div class="weather">
+            <!-- <p>Temperature: <span id="current-temp"></span></p>
+            <p>Icon: <span id="icon"></span></p> -->
+        </div>
+
         <div class="parkarea">
 
 
-            <div>
-                <p>Name: <span id="park-name"></span></p>
-                <p>URL: <span id="park-url"></span></p>
-                <p>Img: <span id="park-img"></span></p>
-                <p>Description: <span id="park-description"></span></p>
-            </div>
+          
 
             <!-- <div>
 
@@ -51,15 +59,12 @@
            
         </div>
         <div class="campground">
-            <p>Name: <span id="camp-name"></span></p>
+            <!-- <p>Name: <span id="camp-name"></span></p>
             <p>Reservation: <span id="camp-reservation"></span></p>
-            <p>Fee: <span id="camp-fee"></span></p>
+            <p>Fee: <span id="camp-fee"></span></p> -->
         </div>
 
-        <div class="weather">
-            <p>Temperature: <span id="current-temp"></span></p>
-            <p>Icon: <span id="icon"></span></p>
-        </div>
+        
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/script.js"></script>

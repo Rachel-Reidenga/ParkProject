@@ -9,7 +9,26 @@
   * {
     box-sizing: border-box;
   }
+  /*search bar*/
+  #hero-text{
+    opacity: 0.5;
+    background:white;
+  }
   
+  /*park data from api styling*/
+  .imglayout{
+    width:30%;
+  }
+
+  .park{
+    font-weight: 400em;
+    color:white;
+    padding:1em;
+    margin:1em;
+
+  }
+
+
    body {
     background-color: var(--primary);
     margin: 0;
