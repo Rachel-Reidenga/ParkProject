@@ -9,6 +9,36 @@
   * {
     box-sizing: border-box;
   }
+
+  .blue-grey.darken-1{
+    padding:1.5em;
+  }
+  .weather-card{
+    line-height: 80%;
+    padding:0em;
+    margin:0em;
+    text-align: center;
+ 
+    font-size: .9em;
+  }
+
+  .weather-icon{
+    height: 5em;
+  }
+
+  .footer-card{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+  }
+
+  h2{
+    color:black;
+    font-weight: 300;
+    margin-bottom: 0em;
+  }
   /*search bar*/
   #hero-text{
     opacity: 0.5;
@@ -16,10 +46,60 @@
   }
   
   /*park data from api styling*/
+  .parkarea{
+    margin-top:2em;
+  }
   .imglayout{
-    width:30%;
+    width:50%;
+    border: 2px solid;
+    padding: 15px;
   }
 
+  .card-link{
+    margin:1em;
+    background-color: #808080; 
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    transition-duration: 0.4s;
+    padding:.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  
+  .card-link:hover {
+    background-color: #b5bdb8; /* Green */
+    color: white;
+  }
+
+  .park-image{
+    text-align: center;
+    width:90%;
+    text-shadow: 2px 2px 4px #000000;
+
+  }
+  .card-image{
+    padding: 1.5em;
+    padding-bottom:0em;
+    margin: auto;
+  }
+
+  .card-bg{
+    background: white;
+    box-shadow: 5px 5px grey;
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+.card-content{
+  line-height: 1.6;
+  letter-spacing: 2px;
+
+}
+.card-action{
+  padding-bottom: 1em;
+ 
+}
   .park{
     font-weight: 400em;
     color:white;
@@ -110,4 +190,18 @@
   
   .btn-inline {
     display: inline;
+  }
+
+  .adventure{
+    background-color:var(--secondary);
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 2;
+    line-height: 1.25;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .footerh2{
+    color: var(--white);
   }

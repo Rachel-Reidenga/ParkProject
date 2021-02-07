@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+
+
 var APIKey = "GbSqqMYxDn7M1nf2UQOTRhNleBM2l0zy6iiHUpcS";
 var nationalPark = [""];
 var APIKey2 = "eba38d5202ab062097c0e84b133dc98e";
@@ -69,12 +72,17 @@ function parks(parks) {
 
                 var html = `
             <div class="row">
-                <div class="col s12 m7">
+                <div class="col s12 m7 card-bg">
                     <div class="card-image">
-                        <img src=${response.data[i].images[0].url}>
+                        <img src=${response.data[i].images[0].url} class="park-image">
                         <span class="card-title">
-                            ${response.data[i].fullName}
+                            <h2>${response.data[i].fullName}</h2>
                         </span>
+                        <div class="weather-card">
+                            <span>Temperature: ${weatherData.temperature} *F</span>
+                            <img class="weather-icon" src=${weatherData.icon} alt="Weather Icon">
+                           
+                        </div>
                     </div>
                     <div class="card-content">
                         <p>
@@ -82,9 +90,12 @@ function parks(parks) {
                         </p>
                     </div>
                     <div class="card-action">
-                        <img src=${weatherData.icon} alt="Weather Icon">
-                        <span>${weatherData.temperature} *F</span>
-                        <a href=${response.data[i].url}>Learn More!</a>
+                    <div class="footer-card">
+                        
+                    
+                       
+                        <a  class="card-link" href=${response.data[i].url}>Learn More!</a>
+                    </div>
                     </div>
                 </div>
             </div>`;
@@ -96,3 +107,6 @@ function parks(parks) {
 
         });
 }
+
+
+});
