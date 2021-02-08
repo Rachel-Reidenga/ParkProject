@@ -28,15 +28,15 @@ Link to repository on [GitHub](https://github.com/Rachel-Reidenga/ParkProject)
 
 ## Screenshots
 
-![Top of Page](./screenshots/TopHero.png)
+![Top of Page](https://github.com/Rachel-Reidenga/ParkProject/raw/css-update/screenshots/TopHero.png)
 
-![Middle of Page](./screenshots/ParkOne.png)
+![Middle of Page](https://github.com/Rachel-Reidenga/ParkProject/raw/css-update/screenshots/ParkOne.png)
 
-![Middle of Page](./screenshots/ParkTwo.png)
+![Middle of Page](https://github.com/Rachel-Reidenga/ParkProject/raw/css-update/screenshots/ParkTwo.png)
 
-![Middle of Page](./screenshots/ParkThree.png)
+![Middle of Page](https://github.com/Rachel-Reidenga/ParkProject/raw/css-update/screenshots/ParkThree.png)
 
-![Bottom of Page](./screenshots/Footer.png)
+![Bottom of Page](https://github.com/Rachel-Reidenga/ParkProject/raw/css-update/screenshots/Footer.png)
 
 ## Built With
 
